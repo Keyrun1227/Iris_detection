@@ -1,0 +1,30 @@
+<html>
+
+<body bgcolor=#FED8B1>
+
+    <center>
+
+        <h1> <u>IRIS FLOWER CLASS PREDICTION :  </u></h1>
+    
+    {%if data == 0%}
+    <h1><b>Iris-setosa</b></h1>  
+    <img src='static\setosa.jpg'>  
+
+    {%elif data == 1%}
+    <h1><b>Iris-versicolor</b></h1>
+    <img src='static\verci.jpg'>
+
+    {%else%}
+    <h1><b>Iris-virginica</b></h1>  
+    <img src='static\virginica.jpg'>  
+    
+    {%endif%}
+
+        <br><br>
+    <b><a href='/'><b>Go Back To Home Page</b></a>
+
+    </center>
+
+</body>
+
+</html>
